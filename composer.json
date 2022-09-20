@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mobizon/mobizon-php": "^2.0"
+    }
+}

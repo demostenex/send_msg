@@ -1,0 +1,65 @@
+{
+    "packages": [
+        {
+            "name": "mobizon/mobizon-php",
+            "version": "2.0.3",
+            "version_normalized": "2.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mobizon/mobizon-php.git",
+                "reference": "0382a6b8b69800ef71d582578eba629baeae409d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mobizon/mobizon-php/zipball/0382a6b8b69800ef71d582578eba629baeae409d",
+                "reference": "0382a6b8b69800ef71d582578eba629baeae409d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-simplexml": "*",
+                "php": ">=5.3.3"
+            },
+            "time": "2020-01-13T17:22:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Mobizon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Shcherbak",
+                    "email": "Ivan.Shcherbak@mobizon.com",
+                    "homepage": "https://mobizon.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP library for communicating with the Mobizon API. Mobizon is a powerful SMS gateway and online marketing tools.",
+            "homepage": "https://mobizon.com/",
+            "keywords": [
+                "A2P",
+                "api",
+                "gateway",
+                "messaging",
+                "mobizon",
+                "sms"
+            ],
+            "support": {
+                "docs": "https://github.com/mobizon/mobizon-php/blob/master/README.md",
+                "email": "support@mobizon.com",
+                "issues": "https://mobizon.com/contacts",
+                "source": "https://github.com/mobizon/mobizon-php/tree/2.0.3"
+            },
+            "install-path": "../mobizon/mobizon-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
